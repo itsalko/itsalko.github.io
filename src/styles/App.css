@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+}
+.pokemonData{
+  display: flex;
+}
+@media (max-width: 768px)
+{
+  .pokemonData{
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+}
+.pokemonData .typesContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pokemonData .detailsTable, td{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
